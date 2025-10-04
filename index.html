@@ -19,6 +19,37 @@
     section.resume-section .resume-item ul li:last-child {
       margin-bottom: 0;
     }
+
+    .list-social-icons a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.35rem;
+      text-decoration: none;
+    }
+
+    .list-social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      padding-left: 0;
+    }
+
+    .list-social-icons .list-inline-item {
+      margin: 0;
+    }
+
+    .list-social-icons .social-label {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #495057;
+    }
+
+    .list-social-icons a:hover .social-label,
+    .list-social-icons a:focus .social-label {
+      color: #bd5d38;
+    }
   </style>
 <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -109,7 +140,7 @@
         <h1 class="mb-0">Haolu
           <span class="text-primary">Ma</span>
         </h1>
-        <div class="subheading mb-5">Auckland, New Zealand; +64 27 449 0377;
+        <div class="subheading mb-5">Auckland &amp; Hamilton, New Zealand &amp;middot; +64 27 449 0377 &amp;middot;
           <a href="mailto:hma246@aucklanduni.ac.nz">hma246@aucklanduni.ac.nz</a>
         </div>
         <p class="mb-5">Self-taught full-stack and AI developer completing the Master of Information Technology at the University of Auckland (Feb 2025 - Mar 2026). I design and ship cloud-native systems across AWS and Azure, pairing deep networking foundations with production-grade web and data tooling. Recent work includes an LLM-powered room IoT platform, a 50k-SKU ecommerce automation stack, and an open-source proxy middleware adopted by thousands.</p>
@@ -120,6 +151,7 @@
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
               </span>
+              <span class="social-label">LinkedIn</span>
             </a>
           </li>
           <li class="list-inline-item">
@@ -128,6 +160,7 @@
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-github fa-stack-1x fa-inverse"></i>
               </span>
+              <span class="social-label">GitHub</span>
             </a>
           </li>
           <li class="list-inline-item">
@@ -136,6 +169,7 @@
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-file-pdf-o fa-stack-1x fa-inverse"></i>
               </span>
+              <span class="social-label">Download CV</span>
             </a>
           </li>
         </ul>
@@ -149,7 +183,7 @@
         <div class="resume-item d-flex flex-column flex-md-row mb-5">
           <div class="resume-content mr-auto">
             <h3 class="mb-0">Merchant Marco Hotel</h3>
-            <div class="subheading mb-3">Software &amp; AI Engineer Intern; Hangzhou, China</div>
+            <div class="subheading mb-3">Software &amp; AI Engineer Intern &amp;middot; Hangzhou, China</div>
             <p>Part of the team delivering a room IoT platform and LLM assistant for hotel operations.</p>
             <ul>
               <li>Planned for scale across about 300 rooms and 3,000 devices with role-based controls and PMS automation.</li>
@@ -167,7 +201,7 @@
         <div class="resume-item d-flex flex-column flex-md-row">
           <div class="resume-content mr-auto">
             <h3 class="mb-0">Square Tech</h3>
-            <div class="subheading mb-3">Customer Support &amp; Software Engineer Intern; Hamilton, New Zealand</div>
+            <div class="subheading mb-3">Customer Support &amp; Software Engineer Intern &amp;middot; Hamilton, New Zealand</div>
             <p>Introduced automation to eliminate manual catalogue work while supporting daily webshop operations.</p>
             <ul>
               <li>Built a Python automation suite that normalises supplier feeds and imports them into WooCommerce with schema validation and retries.</li>
@@ -192,7 +226,7 @@
         <div class="resume-item d-flex flex-column flex-md-row mb-5">
           <div class="resume-content mr-auto">
             <h3 class="mb-0">Skillnex</h3>
-            <div class="subheading mb-3">AI Talent-Matching Platform; University of Auckland</div>
+            <div class="subheading mb-3">AI Talent-Matching Platform &amp;middot; University of Auckland</div>
             <p>Course project building an interactive CV and job-matching platform as containerised microservices.</p>
             <ul>
               <li>Architected a React and TypeScript client, Node.js REST backend, and Python AI service deployed across AWS CloudFront, S3, ECS, SQS, and Lambda.</li>
@@ -209,7 +243,7 @@
         <div class="resume-item d-flex flex-column flex-md-row mb-5">
           <div class="resume-content mr-auto">
             <h3 class="mb-0">Open-source Proxy Middleware Maintainer</h3>
-            <div class="subheading mb-3">Community project; Go</div>
+            <div class="subheading mb-3">Community project &amp;middot; Go</div>
             <p>Maintained a multi-protocol proxy middleware adopted by thousands of users.</p>
             <ul>
               <li>Authored nearly the entire codebase covering node registration, user management, rate limiting, and automated TLS provisioning.</li>
